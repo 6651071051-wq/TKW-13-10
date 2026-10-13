@@ -1,0 +1,7 @@
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: none; }
+}
+.fade-in { animation: fadeInUp .8s ease both; }
+html { scroll-behavior: smooth; }
